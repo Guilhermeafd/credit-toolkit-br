@@ -1,1 +1,3 @@
 # credit-toolkit-br
+
+O credit-toolkit-br e um conjunto de ferramentas offline para analistas de credito imobiliario no mercado brasileiro. O objetivo e automatizar tarefas repetitivas — calculo de enquadramento de renda, verificacao de cidades e geracao de pareceres para corretores — sem depender de internet, instalacao de software ou acesso administrativo na maquina. O projeto e desenvolvido e versionado publicamente no GitHub, servindo como ferramenta de uso real e como portfolio de desenvolvimento.
