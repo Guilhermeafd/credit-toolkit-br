@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Define o idioma e a codificação - aceita acentos -->
+    <meta charset="UTF-8">
+
+    <!-- Faz a página se adaptar ao tamanho da tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título que aparece na aba do navegador -->
+    <title>Credit Toolkit BR</title>
+    
+    <!-- Conecta o arquivo de estilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho principal-->
+    <header>
+        <h1>Credit Toolkit BR</h1>
+    </header>
+
+    <!-- Área de navegação entre ferramentas -->
+    <nav>
+        <button id="btn-cidades">Verificar Cidades</button>
+    </nav>
+
+    <!-- Área onde o conteúdo de cada ferramenta aparece -->
+    <main>
+        <section id="ferramenta-cidades">
+            <h2>Verificador de Cidades</h2>
+            
+            <!-- Campo onde o usuário digita -->
+            <input type="text" id="input-cidade" placeholder="Digite o nome da cidade">
+            
+            <!-- Botão que dispra a busca -->
+            <button id="btn-verificar">Verificar</button>
+            
+            <!-- Aqui o resultado vai aparecer - começa vazio -->
+            <div id="resultado-cidade"></div>
+        </section>
+    </main>
+
+    <!-- Conecta o arquivo de lógiac - sempre no final do body -->
+    <script src="js/script.js"></script>
+</body>
+</html>
